@@ -1,17 +1,19 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: "SF Display" sans-serif;
+    font-family: "SF Display", sans-serif;
 }
 
 .nav{ 
     margin-top: 24px;
-    width: 1116px;
+    width: 1800px;
     height: 42px;
-    left: 154.5px;
+    left: 180px;
     margin: auto;
     justify-content: space-between;
     display: flex;
+    align-items: center;
+    
    
 
 }
@@ -20,6 +22,13 @@
     display: flex;
     justify-content: space-between;
     width: 311.9px;
+    gap: 40px;
+}
+.menu{
+    width: 19px;
+    height: 3px;
+    border-radius: 5px;
+    margin-top: 10px;
 }
 
 .logo {
@@ -28,29 +37,38 @@
     margin-top: 11.81px;
     left: 3.17px;
 }
-.search {
-    width: 120px;
-    height: 30px;
-    margin-top: 5.5px;
-    left: 191.89px;
+.text{
+    color: #fff 50%;
+    opacity: 0.4;
 }
+.search-container{
+    margin-top: 15px;
+    background-color: transparent;
+    
+    
+}
+.search-type{
+   opacity: 1;
+    background-color: transparent;
+    border: none;
+}
+
+.search-type::placeholder {
+    color: white;
+    opacity: 0.7;
+}
+
 
 .nav-back {
    
     display: flex;
-    
-    margin-top: 24px;
     color: #fff;
     gap: 10px;
     
 }
     
     
-    
-
-
-
-.hero {
+    .hero {
     height: 100vh;
     background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0) 100%),
     url(https://unread.today/files/007afc64-288a-4208-b9d7-3eda84011c1d/1451f11e03da76480966b636a622119a.jpg);
@@ -61,33 +79,36 @@
     position: relative;
     background-position: 50% 20%;
     
+    
 }
 .hero-content {
-    width: 1116px;
-    height: 446.4px ;
-   margin: auto;
     display: flex;
-    justify-content: space-between;
     color: white;
     margin-top: 121px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
    
 
 }
-.cover {
-    height: 446.4px;
-    width: 446.4px;
-    border-radius: 20px;
-    
-    
-
+.cover { 
+    width: 446px;
+    height: 446px;
+    border-radius: 24px;
+    background-image: url(COVER.png);
+    background-size: contain;
+    background-repeat: none;
+    transition: all ease 0.5s;
+    background-size: 100%;
+    background-position: center;
+}
+.cover:hover {
+    background-size: 110%;
 }
 .content {
-    width: 608.6px;
-    height: 273px;
-    margin-top: 45px;
-    margin-left: 507.39px;
     font-size: 35px;
-    background-color: black;
+    
 
 }
 .title {
@@ -100,13 +121,24 @@
     color: #fff;
 }
 
-.hero-content div {
-    width: 50%;
-    height: 300px;
-}
-
 .unread.png img {
     width: 134.38px;
     height: 18px;
     left: 157px;
+}
+.hero-bottom {
+    height: 327px;
+    background-color: black;
+}
+
+
+.ded-title{
+    color: #fff;
+    margin-left: 300px;
+    font-size: 15.8px;
+
+}
+.links{
+    display:flex;
+    gap:5px
 }
