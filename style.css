@@ -268,6 +268,15 @@
 .author {
     width: 739px;
     height: 40px;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    font-size: 11.8px;
+}
+.date h2{
+    color: #888888;
+
 }
 .f-content {
     width: 739px;
@@ -276,13 +285,57 @@
     gap: 0px;
     border-radius: 0px 27px 27px 27px;
     opacity: 0px;
+    display: flex;
+    justify-content: space-between;
 
 }
+
+.f-title {
+    margin-top: 15px;
+}
+.f-title h1 {
+   color: #0078f6; 
+   font-family: Inter;
+font-size: 12.4px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0.30000001192092896px;
+text-align: left;
+margin-left: 20px;
+
+}
+.f-title h2 {
+    font-family: Inter;
+font-size: 21.1px;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 0.15000000596046448px;
+text-align: left;
+color: #000;
+margin-left: 30px;
+}
+.title-img {
+   margin-top: 20px;
+   margin-right: 20px;
+}
+
 .article2 {
 width: 739px;
 height: 236px;
 margin-top: 50px;
 margin-left: 800px;
+
+}
+
+.title-box {
+    display: flex;
+    font-size: 11.8px;
+    justify-content: flex-end;
+
+
+}
+.date2 {
+   
 }
 .f-content2{
 width: 739px;
@@ -294,7 +347,7 @@ background-color: #FFFFFF;
 
 }
 .author2 {
-    width: 739px;
+
     height: 40px;   
 }
 .article3 {
