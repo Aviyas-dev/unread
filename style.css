@@ -28,11 +28,10 @@
     
 
    }
-.body {
-    overflow-x: hidden;
-    width: 100%;
-}
 
+body{
+    background-color: #fafafa;
+}
 .nav-front {
     display: flex;
     justify-content: space-between;
@@ -344,6 +343,7 @@ gap: 0px;
 border-radius: 27px 0px 27px 27px;
 opacity: 0px;
 background-color: #FFFFFF;
+display: flex;
 
 }
 .author2 {
@@ -359,11 +359,14 @@ background-color: #FFFFFF;
 
 .prevweek {
     margin-top: 100px;
-    background-color: #fafafa
+    
 }
 .list{
-    width: 1121px;
-    height: 61px;
+   display: flex;
+   justify-content: space-around;
+   width: 1121px;
+   height: 61px;
+   margin-left: 360px;
 }
 .list1 {
 width: 212px;
@@ -372,6 +375,92 @@ height: 62px;
 color: #0078f6;
 
 }
+
+
+.list2 {
+    color: #888888;
+}
+.grid-container1 {
+    display: grid;
+    justify-content: center;
+    margin: auto;
+   
+    top: 98px;
+    left: -19px;
+    gap: 20px;
+    grid-template-columns: 270.5px 270.5px 264.75px 264.75px;
+    grid-template-rows: 361px 234px;
+
+}
+.grid-container2 {
+    display: grid;
+    justify-content: center;
+    margin: auto;
+    margin-top: 120px;
+    margin-bottom: 250px;
+    top: 98px;
+    left: -19px;
+    gap: 20px;
+    grid-template-columns: 270.5px 270.5px 264.75px 264.75px;
+    grid-template-rows: 361px 234px;
+}
+.item {
+    padding: 10px;
+    border-radius: 5px;
+   
+}
+.item1 {
+    grid-row: 1 / 1;
+    grid-column: 1 / 3;
+    gap: 0px;
+    border-radius: 18px;
+   
+}
+
+.item2 {
+    grid-row: 2 / 2;
+    grid-column: 1/1;
+    border-radius: 18px;
+   
+}
+.item3 {
+    grid-row: 2/2;
+    grid-column: 2/2;
+    border-radius: 18px;
+    
+}
+.item4 {
+    grid-row: 2/2;
+    grid-column: 3/3;
+    border-radius: 18px;
+    top: 19px;
+    gap: 0px; 
+    background-size: cover;
+    
+}
+.item5 {
+    grid-row: 2/2;
+    grid-column: 4/4;
+    border-radius: 18px;
+    top: 19px;
+    left: 19px;
+    gap: 0px;
+    
+}
+.item6 {
+   gap: 0px;
+    border-radius: 18px;
+    
+}
+.item7 {
+   gap: 0px;
+    border-radius: 18px;
+   
+}
+
+
+
+
 
 .footer-box {
     height: 750px;
